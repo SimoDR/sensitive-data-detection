@@ -1,6 +1,6 @@
 # Sensitive data detection 
 
-This repository contains the dataset used for sensitive data detection as described in name_paper. It has been generated with the OpenLLaMa model, and as such is licensed permissively under the Apache 2.0 license.
+This repository contains the dataset used for sensitive data detection as described in name_paper. It has been generated with the OpenLLaMa model, and as such is licensed permissively under the Apache 2.0 license: we decided to distribute it freely to encourage further research in this field.
 
 ## Format
 
