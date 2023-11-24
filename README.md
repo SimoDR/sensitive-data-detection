@@ -9,12 +9,14 @@ The dataset is shaped as a list of entries: each top-level entry is a couple `(t
 - `label` is a list of entries, in with the key is a label specifying the category of sensitive data, the value is a list of pairs, each pair indicating the beginning and ending character index of the sensitive span.
 
 ## Categories and labels
-- "\[DATI_SALUTE\]": This category encompasses information pertaining to the physical and mental well-being of individuals. It includes details regarding existing diagnoses, medical conditions, and disabilities.
-- : The political category involves information related to an individual's political beliefs. This encompasses their political orientation, specific party affiliation, as well as membership in work unions or similar organizations.
-- : Within the realm of sexuality, we consider information concerning an individual's sexual orientation, habits, and gender identity.
-- : The judicial category encompasses data associated with legal matters, such as offenses, crimes, charges, pending criminal proceedings, accusations, and trial proceedings involving an individual.
-- : Information regarding an individual's philosophical and religious beliefs and affiliations falls within the scope of the philosophy category.
-- : The ethnic category pertains to an individual's ethnic origin and heritage.
+
+The labels used in the dataset follows with a brief description:
+- **\[DATI_SALUTE\]**: This category encompasses information pertaining to the physical and mental well-being of individuals. It includes details regarding existing diagnoses, medical conditions, and disabilities.
+- **\[DATI_POLITICA\]**: The political category involves information related to an individual's political beliefs. This encompasses their political orientation, specific party affiliation, as well as membership in work unions or similar organizations.
+- **\[DATI_SESSUALITA\]**: Within the realm of sexuality, we consider information concerning an individual's sexual orientation, habits, and gender identity.
+- **\[DATI_GIUDIZIARI\]**: The judicial category encompasses data associated with legal matters, such as offenses, crimes, charges, pending criminal proceedings, accusations, and trial proceedings involving an individual.
+- **\[DATI_RELIGIONE\]**: Information regarding an individual's philosophical and religious beliefs and affiliations falls within the scope of the philosophy category.
+- **\[DATI_ETNIA\]**: The ethnic category pertains to an individual's ethnic origin and heritage.
 
 ## Document types and count
 
