@@ -8,7 +8,15 @@ The dataset is shaped as a list of entries: each top-level entry is a couple `(t
 - `text` holds the content of the generated document;
 - `label` is a list of entries, in with the key is a label specifying the category of sensitive data, the value is a list of pairs, each pair indicating the beginning and ending character index of the sensitive span.
 
-## Categories and document count
+## Categories and labels
+- "\[DATI_SALUTE\]": This category encompasses information pertaining to the physical and mental well-being of individuals. It includes details regarding existing diagnoses, medical conditions, and disabilities.
+- : The political category involves information related to an individual's political beliefs. This encompasses their political orientation, specific party affiliation, as well as membership in work unions or similar organizations.
+- : Within the realm of sexuality, we consider information concerning an individual's sexual orientation, habits, and gender identity.
+- : The judicial category encompasses data associated with legal matters, such as offenses, crimes, charges, pending criminal proceedings, accusations, and trial proceedings involving an individual.
+- : Information regarding an individual's philosophical and religious beliefs and affiliations falls within the scope of the philosophy category.
+- : The ethnic category pertains to an individual's ethnic origin and heritage.
+
+## Document types and count
 
 | Data category              | Doc title                                           | Doc count | Avg char count |
 |----------------------------|-----------------------------------------------------|-----------|----------------|
