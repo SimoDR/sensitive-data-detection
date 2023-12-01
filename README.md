@@ -1,6 +1,6 @@
 # Sensitive data detection 
 
-This repository contains the dataset used for sensitive data detection as described in the paper "Exploiting Large Language Models to Train Automatic Detectors of Sensitive Data" (currently submitted for review in the [IRCDL 2024 Conference]([url](http://ircdl2024.dei.unipd.it/))). As described in the paper, the dataset has been generated with the OpenLLaMa model [[1]](#1), and as such is licensed permissively under the Apache 2.0 license: we decided to distribute it freely to encourage further research in this field.
+This repository contains the dataset used for sensitive data detection as described in the paper "Exploiting Large Language Models to Train Automatic Detectors of Sensitive Data" (currently submitted for review in the [IRCDL 2024 Conference]([url](http://ircdl2024.dei.unipd.it/))...). As described in the paper, the dataset has been generated with the OpenLLaMa model [[1]](#1), and as such is licensed permissively under the Apache 2.0 license: we decided to distribute it freely to encourage further research in this field.
 
 ## Format
 
